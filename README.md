@@ -1,12 +1,12 @@
 # ticker
-emergency wheather and news ticker
+Emergency, wheather. and news ticker
 This is an D1-mini based ticker that shows (dutch) emergency services messages and local traffic, weather and (rss) news services on a scrolling MAX72XX display.
 
 Click picture for 8 seconds Youtube video<BR> 
 [![video](https://github.com/gtmans/ticker/blob/main/tickerYT.jpg)](https://youtu.be/rS8Z2R228mY)
 
 What it does
-The D1-mini wakes up once every minute and checks an .rss feed of local emergency services (in my case https://alarmeringen.nl//feeds/city/apeldoorn.rss) and whenever there is an emergency message of
+The D1-mini wakes up once every minute and checks an .rss feed of local emergency services (in my case https://alarmeringen.nl//feeds/city/apeldoorn.rss) and whenever there is an urgent emergency message of
 Police, Firebrigate or Ambulance it creates a siren sound on the buzzer (when switched on), sends a (prowl) message to my phone, flashes the leds in (blue/red/yellow or purple color) and displays the message on the ticker display.
 When there are no emergency messages for 2 minutes it displays some other messages like local weather info (http://weerlive.nl/api/json-data-10min.php - you need a free api key), local traffic info (rss free verkeersplaza), or news from 1 of 5 other .rss feeds.
 It is based on Dutch (P2000) emergency message system and weather services. You have to customise this depending on your own wishes and location but you can use it to read any https:// .rss feed.   
