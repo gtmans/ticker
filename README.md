@@ -4,6 +4,8 @@ This is an D1-mini based ticker that shows (dutch) emergency services messages a
 
 [![video](https://github.com/gtmans/ticker/blob/main/tickerYT.jpg)](https://youtu.be/rS8Z2R228mY)
 
+[!layout](https://github.com/gtmans/ticker/blob/main/ticker-layout.png)
+
 
 
 
