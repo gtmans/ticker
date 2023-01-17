@@ -40,7 +40,7 @@ Change this settings according to your situation:
 - your prowl api key if you want to use prowl for messaging to your phone (https://www.prowlapp.com/ costs a litte once) 
 - #define nrsites 9 to the number of .rss sites you want to use
 - hosts[] (URL of HTTPS-site),links[] (rest of the URL),StartWith[](the place in the .rss file where you want to start searching),lines[] (#of lines you have to read in the .rss to get the first message) ,divider[] (deviding character which determines what "a line" is in the rss)
-  Open the .rss or xml and examine how it is built up before you change this parameters. There is a test program you can run.
+  Open the .rss or xml and examine how it is built up before you change this parameters. Made a test program to tune and test this: https-rss-testprogram.ino
 - fingerprint0-9[]. You can find the fingerprint when you click on the lock / certificate / SHA-1-vingerafdruk
 
 Switches
