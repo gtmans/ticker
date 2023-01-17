@@ -1,6 +1,7 @@
  /* D1 mini pinout https://escapequotes.net/esp8266-wemos-d1-mini-pins-and-diagram/
   * S2 mini pinout https://www.espressif.com/sites/default/files/documentation/esp32-s2_datasheet_en.pdf
-  * D1 mini           S2 mini  
+  * D1 mini           S2 mini 
+  *
   * RST  -   TX     EN  1   -  40  39
   * A0   -   RX     3   2   -  38  37
   * D0   -   D1     5   4   -  36  25
@@ -18,17 +19,8 @@
   * https://www.p2000alarm.nl/index.php?m=afkortingen
   * https://www.p2000monitor.eu/codes.html
   * https://www.firecom.nl/en/kennisbank/p2000-capcodes-vinden/
-  *  //https://www.ad.nl/apeldoorn/rss.xml
-  *  //https://www.destentor.nl/apeldoorn/rss.xml
-  * 
-  * subprojects
-  * #projects/P2000/P2000
-  * #projects/P2000/stripstring
-  * #projects/P2000/ledwheel
-  * ^VARIOUS/8X8-TEST3.2-D1
-  * LORAWAN/TTGO-LoRa-Series-master/#REMAKE/MyLoRaReceiverWeb.2.8
-  * #PROJECTS/#MARBLES/knikkerbaan7.3
-  * idem Led-Wheel-void4-millis-temp
+  * https://www.ad.nl/apeldoorn/rss.xml
+  * https://www.destentor.nl/apeldoorn/rss.xml
   * 
   * https://roboticsbackend.com/arduino-push-button-tutorial/
   * buzzer https://www.circuitbasics.com/how-to-use-active-and-passive-buzzers-on-the-arduino/
@@ -37,7 +29,7 @@
   * https://circuits4you.com/2018/03/08/arduino-convert-string-to-character-array/
   * https://maakbaas.com/esp8266-iot-framework/logs/https-requests/* 
   * https://circuits4you.com/2019/01/10/esp8266-nodemcu-https-secured-get-request/
-   //SHA-1=2F A5 F5 85 94 66 BC 89 25 E2 FA 21 D1 6F 5B B5 DB E4 55 F0
+    //SHA-1=2F A5 F5 85 94 66 BC 89 25 E2 FA 21 D1 6F 5B B5 DB E4 55 F0
   * https://www.researchgate.net/post/How-to-reboot-reset-ESP32-without-pressing-the-reboot-button-on-the-board Connect any GPIO port to the RST pin.
   * https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
   * http://www.esp8266learning.com/wemos-mini-ws2812b-example.php
