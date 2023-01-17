@@ -49,5 +49,4 @@ Switches
 - Switch for led on/of
 - Switch for ledmatrix on/of (does noet work 100%)
 
-
-
+More background info in used_tips.h
