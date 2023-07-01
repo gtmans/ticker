@@ -1,6 +1,4 @@
-/* ideetjes
- * indien geen nieuws kijk in gelderland of ugchelen
- */
+// ticker Mans Rademaker 2023 veryone free to use this
 #define debug      0
 #define prowl      1            // send message to prowl
 #define dosleep    1            // go to sleep i/o run the loop()
